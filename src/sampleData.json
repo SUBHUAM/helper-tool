@@ -1,0 +1,69 @@
+{
+    "productHeading": [
+      {
+        "name": "Sn",
+        "sortBy": "",
+        "width": "width40"
+      },
+      {
+        "name": "Date",
+        "sortBy": "date",
+        "width": "width100"
+      },
+      {
+        "name": "B2B Return ID",
+        "sortBy": "grnId",
+        "width": "width100"
+      },
+      {
+        "name": "Reference ID",
+        "sortBy": "referenceId",
+        "width": "width100"
+      },
+      {
+        "name": "Customer Name",
+        "sortBy": "customerName",
+        "width": "width200"
+      },
+      {
+        "name": "Customer ID",
+        "sortBy": "customerId",
+        "width": "width150"
+      },
+      {
+        "name": "Return GRN Amount",
+        "sortBy": "totalAmount",
+        "width": "width150"
+      },
+      {
+        "name": "Status",
+        "sortBy": "returnGrnStatus",
+        "width": "width100"
+      },
+      {
+        "name": "Action",
+        "sortBy": "",
+        "width": "width100"
+      }
+    ],
+    "filterBy": [
+      {
+        "dText": "Date",
+        "fText": "date"
+      },
+      {
+        "dText": "B2B Return ID",
+        "fText": "grnId"
+      },
+      {
+        "dText": "Reference ID",
+        "fText": "referenceId"
+      },
+      {
+        "dText": "Customer Name",
+        "fText": "customerName"
+      }
+    ],
+    "apiUrl": "/getAllReturnB2BGrn"
+  }
+  
